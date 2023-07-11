@@ -44,6 +44,9 @@
     font-size: 45px;
 }
 
+.banner-content {
+    margin-bottom: 5rem;
+}
 .paragraph {
     margin-top: 10px;
     margin-left: 240px;
@@ -56,10 +59,12 @@
     height: auto;
     flex-shrink: 0;
     margin-right: 150px;
+    position: relative;
+    top: 55px;
 }
 
 .hot {
-    padding: 302px;
+    padding: 70px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
 
@@ -109,8 +114,13 @@
 .images img {
     margin: 10px 16px;
     width: 20%;
-    margin: auto;
+    /* margin: auto; */
 
+}
+
+a {
+    color: black;
+    
 }
 
 .hot {
@@ -214,6 +224,51 @@
     text-align: center;
 }
 
+.subscribe {
+    background: no-repeat url("../Flower\ Asset/Rectangle 9.png");
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    height: 20rem;
+    margin-bottom: 30px;
+}
+
+.subscribe h1 {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+}
+
+.subscribe p {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.inputarea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subscribe input {
+    width: 50%;
+    height: 4rem;
+    margin: 10px;
+    border-radius: 12px;
+    border: none;
+    padding: 0px 20px;
+    font-size: 16px;
+}
+
+.subscribe button {
+    height: 4rem;
+    width: 9rem;
+    background-color: #E55473;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
 
 .text-last {
     color: #E55473;
@@ -221,9 +276,29 @@
     font-size: 48px;
     font-style: normal;
     font-weight: 800;
-    line-height: normal;
-
 }
+
+.text-first {
+
+        color: white;
+        font-family: Lato;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 800;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .footer-content{
-    background-color:#111010;;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 300px;
+    padding-top: 100px;
+}
+.footer-bottom{
+    color:rgba(255, 255, 255, 0.40) ;
 }
