@@ -130,17 +130,19 @@
 .wb {
     display: flex;
     justify-content: space-around;
+    width: 80%;
+    margin: auto;
 }
 
 .im {
     background-color: aqua;
-    width: 370px;
+    width: 230px;
     /* border-top: 10px; */
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
 }
 
 .im img {
-    width: 200px;
-    height: 400px;
+    width: auto;
+    height: 250px;
 }
