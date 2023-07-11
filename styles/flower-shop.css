@@ -1,3 +1,7 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .btn-primary {
     border-radius: 8px;
     background: #E55473;
@@ -5,7 +9,11 @@
     font-family: Lato;
     font-size: 20px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: normal;
     line-height: normal;
     cursor: pointer;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
 }
