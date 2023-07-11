@@ -20,7 +20,7 @@ body {
     margin-left: 240px;
     margin-right: 0px;
     border: none;
-    
+
 }
 
 .banner {
@@ -28,17 +28,25 @@ body {
     justify-content: space-around;
     background: rgba(229, 84, 115, 0.10);
 
-    
+
 }
-.banner-heading{
+
+.banner-heading {
     margin-top: 200px;
     margin-left: 240px;
     margin-right: 200px;
     font-size: 45px;
 }
-.paragraph{
+
+.paragraph {
     margin-top: 10px;
     margin-left: 240px;
     margin-right: 0px;
-    
+
+}
+
+.profile {
+    width: 500px;
+    height: 800px;
+    flex-shrink: 0;
 }
