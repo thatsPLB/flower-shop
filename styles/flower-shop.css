@@ -16,4 +16,29 @@ body {
     padding: 20px 43px;
     align-items: flex-start;
     gap: 10px;
+    margin-top: 10px;
+    margin-left: 240px;
+    margin-right: 0px;
+    border: none;
+    
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    background: rgba(229, 84, 115, 0.10);
+
+    
+}
+.banner-heading{
+    margin-top: 200px;
+    margin-left: 240px;
+    margin-right: 200px;
+    font-size: 45px;
+}
+.paragraph{
+    margin-top: 10px;
+    margin-left: 240px;
+    margin-right: 0px;
+    
 }
